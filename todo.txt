@@ -1,0 +1,4 @@
+- remove Twitch keywords
+curl --location 'https://api.twitch.tv/helix/clips?game_id=509658&started_at=2026-05-21T00%3A00%3A00Z&first=100&sort=view_count' \
+--header 'Authorization: Bearer xb77dmhg9j98ekatc3djxqn00naavv' \
+--header 'Client-Id: gp762nuuoqcoxypju8c569th9wz7q5'
